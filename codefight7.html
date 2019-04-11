@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<script>
+		function codefight7 (sequence){
+		    
+		/*for(let i = 0 ; i < sequence2.length  ; i++ ){
+			//alert(i);
+			if(sequence2[i] >= sequence2[i+1]  ){
+		sequence2.splice(i,1);
+		ch++;
+		i--;
+		}
+		if(ch > 1){
+			flag2 = false;
+            break;
+		}*/
+			for(let i = 0 ; i < sequence2.length  ; i++ ){
+			//alert(i);
+				if(sequence2[i] >= sequence2[i+1]  ){
+					sequence2.splice(i,1);
+					break;
+					}
+			}
+			for( let i = 0 ; i<sequence2.length ; i++){
+				if(sequence2[i] >= sequence2[i+1]  ){
+			//		alert(false);
+				}
+			}
+
+	    
+		
+		
+		/*		var ch = 0;
+			for(let i = 0 ; i < sequence.length  ; i++ ){
+			alert(i);
+				if(sequence[i] > sequence[i+1]  ){
+					sequence.splice(i,1);
+					ch++;
+					i--;
+				}
+				
+				document.write(sequence + "<br />");
+				if(ch > 1){
+					alert(ch + "ASD");
+				}
+			
+			}
+			return sequence;
+		*/
+		}
+		var a = [1,2,1,2];
+							alert(a.length);
+
+		 codefight7(a);
+		
+	
+	/*var flag1=true , flag2=false;
+	var flag = flag2 || flag1;
+	alert(flag);
+	*/
+	</script>
+</head>
+<body>
+
+</body>
+</html>

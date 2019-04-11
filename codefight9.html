@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<script>
+		var inputArray = ["aba", "aa", "ad", "vcd", "aba"]
+		var le = -1;
+		for( let i = 0 ; i < inputArray.length ; i++){
+			if(le < inputArray[i].length ){
+				le = inputArray[i].length;
+			}
+		}
+		//alert(le);
+		var new1 = [];
+		for( let i = 0 ; i < inputArray.length ; i++){
+			if(le == inputArray[i].length ){
+				 new1.push( inputArray[i]);
+			}
+		}
+		//alert(new1);
+	
+	</script>
+</head>
+<body>
+
+</body>
+</html>
